@@ -10,6 +10,10 @@
 
 <script>
 import {Swiper, SwiperItem} from 'components/common/swiper'
+// import {MySwiper, MySwiperItem} from 'components/common/swiper'
+// import MySwiper from 'components/common/swiper'
+// import MySwiperItem from 'components/common/swiper'
+
 
 
  export default {
@@ -24,7 +28,9 @@ import {Swiper, SwiperItem} from 'components/common/swiper'
    },
    components: {
      Swiper,
-     SwiperItem
+     SwiperItem,
+    //  MySwiper,
+    //  MySwiperItem
    }
  }
 </script>
